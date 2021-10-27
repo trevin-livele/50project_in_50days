@@ -8,7 +8,6 @@
 
 body {
     font-family:'Muli',sans-serif;
-    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,9 +44,15 @@ body {
     opacity: 0;
 }
 
+.panel.active {
+    flex: 5;
+}
+
 .panel.active h3{
     opacity: 1;
 }
+
+
 
 @media (max-width: 480px){
     .container{
@@ -58,4 +63,4 @@ body {
     .panel:nth-last-of-type(5) {
         display: none;
     }
-}
+} 
