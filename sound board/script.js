@@ -1,5 +1,5 @@
 const sounds = ['applause', 'boo', 'gasp', 
-'tada', 'victory', 'wrong']
+'tada', 'victory', 'wrong' ]
 
 
 sounds.forEach(sound => {
